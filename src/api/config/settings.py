@@ -16,7 +16,7 @@ class DevelopmentSettings(BaseSettings):
     DEBUG = True
     TESTING = True
     SECRET_KEY = 'DevelopmentSettingsSecretKey'
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///../db/api.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///../../db/api.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SHOW_SQLALCHEMY_LOG_MESSAGES = False
 
