@@ -133,3 +133,5 @@ dmypy.json
 .pytest.cache/
 
 db/
+
+migrations/
